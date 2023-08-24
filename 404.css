@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=DM+Sans:wght@500&family=Paytone+One&family=Poppins:wght@200;300;500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: aliceblue;
+    font-family: 'Lato', sans-serif;
+    overflow: hidden;
+}
+.logo{
+    width: 77px;
+}
+.container{
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #991f2c;
+}
+.container ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+}
+.container ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: aliceblue;
+    position: relative;
+    /* border-bottom: 3.5px solid crimson; */
+}
+span{
+    font-size: 40px;
+    color: black;
+    transition: 0.3s;
+}
+span:hover{
+    color: #991f2c;
+    font-size: 2.3em;
+}
+/* .content{
+    background: rgba(255, 255, 255, 0);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+backdrop-filter: blur(8.8px);
+-webkit-backdrop-filter: blur(8.8px);
+color: black;
+text-align: center;
+margin-left: 40px;
+margin-right: 40px;
+padding-top: 30px;
+padding-bottom: 30px;
+margin-top: 120px;
+} */
+.sad{
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 120px;
+    color: gray;
+}
+h1{
+    font-size: 6em;
+}

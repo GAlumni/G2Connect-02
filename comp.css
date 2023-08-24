@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lato&family=Open+Sans&family=Oswald:wght@300&family=Roboto:wght@300;400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: aliceblue;
+    font-family: 'Lato', sans-serif;
+}
+::-webkit-scrollbar{
+    width: 0px;
+}
+.logo{
+    width: 77px;
+}
+.container2{
+    padding: 0 20px;
+    /* padding-bottom: 5px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #991f2c;
+    text-align: center;
+}
+h1{
+    /* margin-left: 30px; */
+    margin-top: 20px;
+    font-size: 4em;
+}
+.hhh{
+    display: flex;
+    border-bottom: 3px solid #991f2c;
+    width: 90%;
+    margin-left: 70px;
+}
+.hhh p{
+    color: aliceblue;
+}
+.hdd{
+    transition: 0.3s;
+}
+.hdd:hover{
+    /* text-shadow: 2px 5px 5px #b21717; */
+    color: #991f2c;
+    /* transform: scale(2); */
+    font-size: 1.3em;
+}
+.table{
+    /* border-collapse: collapse; */
+    border: #991f2c;
+    /* margin: 25px 25%; */
+    font-size: 0.9em;
+    min-width: 400px;
+    border-bottom: 3px solid #991f2c;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    /* margin-left: 10px; */
+}
+.table thead th{
+    background-color: #991f2c;
+    color: aliceblue;
+    font-weight: bold;
+    padding: 12px 15px;
+    font-size: 1.5em;
+}
+.table tbody #tbody1{
+    padding: 12px 15px;
+}
+@media screen and (max-width: 412px){
+    .hhh h1{
+        font-size: 2em;
+    }
+    .hhh{
+        margin-left: 30px;
+    }
+    .hdd:hover{
+        font-size: 1.2em;
+    }
+    .logo{
+        width: 60px;
+        margin-left: 0;
+    }
+    .table{
+        margin-left: 0;
+    }
+    .table thead th{
+        font-size: 1em;
+    }
+    .container2{
+        width: 160%;
+    }
+}
